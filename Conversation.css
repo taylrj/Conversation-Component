@@ -1,0 +1,79 @@
+.conversation-box {
+    width: 1024px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.pic-box {
+    width: 100%;
+    height: 600px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.content-box {
+    position: fixed;
+    top: 500px;
+    height: 200px;
+    width: 1024px;
+    background-color: white;
+    border-color: #666;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.conversation-button {
+    width: 80%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: whitesmoke;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: grey;
+}
+
+.conversation-next-button {
+    width: 10%;
+    height: 30px;
+    margin-left: 85%;
+    margin-right: 5%;
+    font-size: 16px;
+    float: right;
+    background-color: whitesmoke;
+}
+
+.normal-description-box {
+    width: inherit;
+    height: inherit;
+}
+
+.normal-description {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 140px;
+    text-align: left;
+    color: #333;
+}
+
+.question-description-box {
+    width: inherit;
+}
+
+.question-description {
+    width: inherit;
+}
