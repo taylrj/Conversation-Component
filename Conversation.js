@@ -90,9 +90,9 @@ class Conversation extends Component {
     }
 
     // This function receives the cur array and detect whether the it has next content to continue
-    // Default assumption: 1. should end with type 'desc'
-    //                     2. this final layer should only have one JSON 
-    //                     3. next is undefined
+    // End situation assumption: 1. should end with type 'desc'
+    //                           2. this final layer should only have one JSON 
+    //                           3. next is undefined
     isThereNext(temp_json_array) {
         if(temp_json_array.length===1 && temp_json_array[0].next===undefined) return false;
         else return true;
